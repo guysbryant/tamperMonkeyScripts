@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         Learn show/hide friends & study groups
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       Guy Bryant
+// @match        https://learn.co/tracks/full-stack-web-development-v6/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
 window.onload = function(){
 let redAssessmentBanner = document.getElementById("js--region-banner")
     redAssessmentBanner.style.display = "none"
@@ -76,3 +88,4 @@ let showHideRedAssessmentBanner = document.createElement("li")
         }
     })
 }
+})();
