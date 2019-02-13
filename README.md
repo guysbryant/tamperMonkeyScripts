@@ -4,7 +4,7 @@ This lets you modify the behavior and/or appearance of any website to your likin
 If you want to use any of my scripts you will need to install tampermonkey from here: 
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 
-## Click on the tampermonkey icon in your browser toolbar and the Dasboard form the drop down
+## Click on the tampermonkey icon in your browser toolbar and the Dasboard from the drop down
 ![tampermonkey icon](/howToPics/SelectTamperMonkeyDashboard.jpg?raw=true "tampermonkey icon")
 
 ## Click the plus sign to add a new script
