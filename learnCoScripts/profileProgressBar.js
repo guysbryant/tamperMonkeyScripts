@@ -4,12 +4,15 @@
 // @version      0.1
 // @description  Add progress bar to learn.co profile page
 // @author       guysbryant
+// MY NAME IS LISTED IN THE PATH BELOW, REPLACE THAT WITH YOUR NAME LISTED IN THE ADDRESS BAR WHEN YOU ARE IN YOUR PROFILE
 // @match        https://learn.co/guysbryant
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
+//DID YOU REPLACE MY NAME WITH YOURS AT THE END OF THE @match FROM LINE 8 ABOVE? 
+//YOU WILL NEED TO REPLACE MY NAME WITH YOURS FOR THE CODE TO LOAD A PROGRESS BAR FOR YOU
 window.onload = function(){
     let lessonsCompletedElement = document.getElementsByClassName("heading--level-4")[8]
     let completedLessons = parseInt(lessonsCompletedElement.innerText.split('/')[0])
