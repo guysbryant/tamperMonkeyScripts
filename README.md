@@ -5,7 +5,7 @@ If you want to use any of my scripts you will need to install tampermonkey from 
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 
 Click on the tampermonkey icon in your browser toolbar
-
+![tampermonkey icon](/howToPics/SelectTamperMonkeyDashboard.jpg?raw=true "tampermonkey icon")
 Click on Dashboard
 
 Click the plus sign to add a new script
