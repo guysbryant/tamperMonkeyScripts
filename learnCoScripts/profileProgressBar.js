@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         Progress Bar
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Add progress bar to learn.co profile page
+// @author       guysbryant
+// @match        https://learn.co/guysbryant
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
 window.onload = function(){
     let lessonsCompletedElement = document.getElementsByClassName("heading--level-4")[8]
     let completedLessons = parseInt(lessonsCompletedElement.innerText.split('/')[0])
@@ -27,3 +39,4 @@ window.onload = function(){
 
     progressContainer.appendChild(progressSpan)
 }
+})();
