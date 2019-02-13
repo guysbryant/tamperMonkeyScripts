@@ -4,11 +4,11 @@ This lets you modify the behavior and/or appearance of any website to your likin
 If you want to use any of my scripts you will need to install tampermonkey from here: 
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 
-Click on the tampermonkey icon in your browser toolbar
+Click on the tampermonkey icon in your browser toolbar and the Dasboard form the drop down
 ![tampermonkey icon](/howToPics/SelectTamperMonkeyDashboard.jpg?raw=true "tampermonkey icon")
-Click on Dashboard
 
 Click the plus sign to add a new script
+![plus sign](/howToPics/clickOnPlus.jpg?raw=true "plus sign")
 
 Delete ALL the default text in the new userscript file so that it is completely blank
 
