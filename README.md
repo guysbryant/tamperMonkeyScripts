@@ -11,6 +11,7 @@ Click the plus sign to add a new script
 ![plus sign](/howToPics/clickOnPlus.jpg?raw=true "plus sign")
 
 Delete ALL the default text in the new userscript file so that it is completely blank
+![deleted text](/howToPics/deleteAllTextToMakeRoomForNewCode.jpg?raw=true "deleted text")
 
 Copy the text from my script and paste it into the new userscript in the tampermonkey dashboard
 
