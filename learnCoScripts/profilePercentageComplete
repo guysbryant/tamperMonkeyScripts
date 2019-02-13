@@ -1,0 +1,25 @@
+// ==UserScript==
+// @name         Completion Percentage 
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Variation of @guysbryant 's Progress Bar script that appends an in-line completion % to the Learn.co profile page Current Track display. ONLY WORKS FOR FULL STACK WEB DEVELOPMENT TRACK. 
+// @author       btmccollum
+// UPDATE MATCH LINE BELOW TO REFLECT YOUR LEARN.CO USERNAME 
+// @match        https://learn.co/<REPLACE WITH LEARN.CO USERNAME>
+// @grant        none
+// @require http://code.jquery.com/jquery-3.3.1.min.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+window.onload = function(){
+    const curriculum = $('h3.heading.heading--level-4').toArray();
+    const completedLessons = parseInt(curriculum[0].textContent.split('/')[0].trim());
+    const totalLessons = parseInt(curriculum[0].textContent.split('/')[1].trim());
+    const completedLabs = parseInt(curriculum[1].textContent.split('/')[0].trim());
+    const totalLabs = parseInt(curriculum[1].textContent.split('/')[1].trim());
+    const percentComplete = Math.floor(((completedLessons + completedLabs) / (totalLessons + totalLabs)) * 100);
+
+    $('.heading.heading--level-6.heading--color-green.heading--font-size-larger.heading--weight-bolder').append(` - ${percentComplete}% COMPLETE`);
+}
+})();
