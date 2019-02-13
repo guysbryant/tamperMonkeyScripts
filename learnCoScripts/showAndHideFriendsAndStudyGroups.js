@@ -2,7 +2,7 @@
 // @name         Learn show/hide friends & study groups
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Add a menu to toggle the display of friends and study groups on the lesson pages
 // @author       Guy Bryant
 // @match        https://learn.co/tracks/full-stack-web-development-v6/*
 // @grant        none
