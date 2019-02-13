@@ -15,7 +15,7 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 ## Copy the text from my script and paste it into the new userscript in the tampermonkey dashboard
 
-## Save by using File > Save or cntrl + s on a Windows and probably command + s for a mac
+## Save by using File > Save or ctrl + s on a Windows and probably command + s for a mac
 ![copied in code file save](/howToPics/copiedInCodeFileSave.jpg?raw=true "copied in code file > save")
 
 Note: some scripts are setup to easily allow you to customize some of the results, I have included comments in code where this is intended to make it easy for you to find but you can edit any of the code at any time. Feel free to fork my repo and keep your own and/or submit pull requests with anything you add, fix, or modify. 
